@@ -1,5 +1,5 @@
 provider "aws" {
-  profile = " VINAY_TERRAFORM"
+  profile = "new-terraformuser"
   region = var.aws_region
 }
 
