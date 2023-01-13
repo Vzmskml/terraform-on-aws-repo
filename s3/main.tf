@@ -1,6 +1,6 @@
 provider "aws" {
   profile = "SKMLVZM_TERRAFORM"
-  region = var.aws_region
+  region = us-east-2
 }
 
 resource "aws_s3_bucket1" "my-s3-bucket1" {
